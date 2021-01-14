@@ -8,7 +8,7 @@
 * C/C++
 * Java
 * C#
-* Java
+* PHP
 * JavaScript
 * Python
 * Pascal
