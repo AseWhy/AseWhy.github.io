@@ -1,6 +1,7 @@
 {
     "singlepage": false,
     "favicon": "poonya/images/poo_logo.png",
+    "header": "/static/data/textures/3.jpg",
     "logo": {
         "src": "poonya/images/poo_logo.png",
         "themed": false

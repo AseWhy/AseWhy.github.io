@@ -1,6 +1,10 @@
 {
     "singlepage": true,
     "favicon": "router/images/Bash-logo-vector-01.svg",
+    "header": [
+        "/static/data/textures/1.jpg",
+        "/static/data/textures/2.jpg"
+    ],
     "logo": {
         "src": "router/images/Bash-logo-vector-01.svg",
         "themed": true
