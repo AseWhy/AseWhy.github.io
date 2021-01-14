@@ -1,4 +1,5 @@
 {
+    "singlepage": true,
     "favicon": "router/images/Bash-logo-vector-01.svg",
     "logo": {
         "src": "router/images/Bash-logo-vector-01.svg",

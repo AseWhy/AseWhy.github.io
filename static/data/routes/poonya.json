@@ -1,4 +1,5 @@
 {
+    "singlepage": false,
     "favicon": "poonya/images/poo_logo.png",
     "logo": {
         "src": "poonya/images/poo_logo.png",
@@ -35,10 +36,6 @@
                 {
                     "label": "О названии",
                     "target": "main-poonya#about_name"
-                },
-                {
-                    "label": "Ссылки",
-                    "target": "main-poonya#links"
                 }
             ]
         },

@@ -17,7 +17,7 @@
 * Lua
 
 На данный момент я остановился на JavaScript и успешно пишу на нем эти 2 года и имею следующий стек:
-* JavaScript: React/JQuery/TypeScript
+* JavaScript: React/Vue/JQuery/TypeScript
 * Nodejs: React Native/Electron/Express/Gulp/Webpack
 * C/C++: SFML/QT5
 * Python: QT5
