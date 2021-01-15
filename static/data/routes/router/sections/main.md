@@ -22,7 +22,7 @@
 * React/Vue/JQuery/TypeScript/Electron/Express - Фреймворки и библиотеки
 * Gulp/Webpack - Сборщики
 * MySQL/MongoDB/MS Access - БД
-* HTML/CSS/JSON/XML/YAML/PUG - Хранение данных
+* HTML/CSS/JSON/XML/YAML/PUG - Обмен данными/Разметка
 * Linux/nginx - Серверные ОС/Сервера
 * Git - VCS
 
