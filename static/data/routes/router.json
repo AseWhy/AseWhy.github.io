@@ -14,7 +14,7 @@
         "label": "#!AseWhy/Astecom",
         "link": "https://github.com/AseWhy/"
     },
-    "header_buttons": [
+    "buttons": [
         {
             "label": "Главная",
             "target": "main-astecom"
