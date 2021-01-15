@@ -23,7 +23,7 @@
 * Gulp/Webpack - Сборщики
 * MySQL/MongoDB/MS Access - БД
 * HTML/CSS/JSON/XML/YAML/PUG - Хранение данных
-* Linux/nginx - Серверные ос
+* Linux/nginx - Серверные ОС/Сервера
 * Git - VCS
 
 > (!) Это все что я использовал последние 2 года.
