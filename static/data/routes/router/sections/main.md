@@ -16,10 +16,10 @@
 > (!) Это не значит что я хорошо знаю каждый из этих языков, просто в свое время на них пробовал писать
 
 После баловства, с вышеперечисленными я остановился на JavaScript и пишу на нем последние 2 года, имею следующий стек:
-* React[`Client side`]/Vue[`Client side`]/JQuery/TypeScript/Electron/Express - `Фреймворки/Библиотеки`
+* React[`Client side`]/Vue[`Client side`] + `Vuex`/JQuery/TypeScript/Electron/Express - `Фреймворки/Библиотеки`
 * Gulp/Webpack - `Сборщики`
 * MySQL/MongoDB/MS Access - `БД`
-* HTML/CSS/JSON/XML/YAML/PUG - `Обмен данными/Разметка`
+* HTML/CSS/JSON/XML/YAML/PUG/Markdown - `Обмен данными/Разметка`
 * Linux/nginx - `Серверные ОС/Сервера`
 * Git - `VCS`
 
