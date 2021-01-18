@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /%23router
+Allow: /%23poonya
