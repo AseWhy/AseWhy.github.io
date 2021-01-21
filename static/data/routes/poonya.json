@@ -74,6 +74,10 @@
                     "target": "poonya-syntax#block",
                     "children": [
                         {
+                            "label": "Инструкции",
+                            "target": "poonya-syntax#instructions"
+                        },
+                        {
                             "label": "Инструкция: if",
                             "target": "poonya-syntax#if"
                         },
@@ -103,7 +107,54 @@
                     "label": "Cинтаксис выражений",
                     "target": "poonya-syntax#expression",
                     "children": [
-                        
+                        {
+                            "label": "Литералы",
+                            "target": "poonya-syntax#literals"
+                        },
+                        {
+                            "label": "Операторы",
+                            "target": "poonya-syntax#operators"
+                        },
+                        {
+                            "label": "Оператор сложения",
+                            "target": "poonya-syntax#plus"
+                        },
+                        {
+                            "label": "Оператор вычитания",
+                            "target": "poonya-syntax#minus"
+                        },
+                        {
+                            "label": "Оператор умножения",
+                            "target": "poonya-syntax#mult"
+                        },
+                        {
+                            "label": "Оператор деления",
+                            "target": "poonya-syntax#div"
+                        },
+                        {
+                            "label": "Оператор больше",
+                            "target": "poonya-syntax#bigger"
+                        },
+                        {
+                            "label": "Оператор меньше",
+                            "target": "poonya-syntax#less"
+                        },
+                        {
+                            "label": "Оператор больше или равно",
+                            "target": "poonya-syntax#e_bigger"
+                        },
+                        {
+                            "label": "Оператор меньше или равно",
+                            "target": "poonya-syntax#e_less"
+                        },
+                        {
+                            "label": "Оператор равно",
+                            "target": "poonya-syntax#e_equ"
+                        },
+                        {
+                            "label": "Дополнение",
+                            "target": "poonya-syntax#end"
+                        }
                     ]
                 }
             ]
