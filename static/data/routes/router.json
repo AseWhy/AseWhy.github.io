@@ -28,6 +28,10 @@
             "target": "main-docs"
         },
         {
+            "label": "Обновления",
+            "target": "main-updates"
+        },
+        {
             "label": "О сайте",
             "target": "main-about"
         }
@@ -51,6 +55,10 @@
         {
             "name": "main-about",
             "src": "router/sections/about.md"
+        },
+        {
+            "name": "main-updates",
+            "src": "router/sections/updates.md"
         }
     ]
 }
