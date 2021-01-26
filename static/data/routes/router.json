@@ -16,23 +16,38 @@
     },
     "buttons": [
         {
-            "label": "Главная",
+            "label": {
+                "ru": "Главная",
+                "us": "Main"
+            },
             "target": "main-astecom"
         },
         {
-            "label": "Проекты",
+            "label": {
+                "ru": "Проекты",
+                "us": "Projects"
+            },
             "target": "main-projects"
         },
         {
-            "label": "Документация",
+            "label": {
+                "ru": "Документация",
+                "us": "Documentation"
+            },
             "target": "main-docs"
         },
         {
-            "label": "Обновления",
+            "label": {
+                "ru": "Обновления",
+                "us": "Updates"
+            },
             "target": "main-updates"
         },
         {
-            "label": "О сайте",
+            "label": {
+                "ru": "О сайте",
+                "us": "About"
+            },
             "target": "main-about"
         }
     ],
@@ -42,23 +57,23 @@
     "content": [
         {
             "name": "main-astecom",
-            "src": "router/sections/main.md"
+            "src": "router/sections/$lang/main.md"
         },
         {
             "name": "main-docs",
-            "src": "router/sections/documentation.md"
+            "src": "router/sections/$lang/documentation.md"
         },
         {
             "name": "main-projects",
-            "src": "router/sections/projects.md"
+            "src": "router/sections/$lang/projects.md"
         },
         {
             "name": "main-about",
-            "src": "router/sections/about.md"
+            "src": "router/sections/$lang/about.md"
         },
         {
             "name": "main-updates",
-            "src": "router/sections/updates.md"
+            "src": "router/sections/$lang/updates.md"
         }
     ]
 }

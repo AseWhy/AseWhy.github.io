@@ -15,144 +15,243 @@
     },
     "buttons": [
         {
-            "label": "Пунья",
+            "label": {
+                "ru": "Пунья",
+                "us": "Poonya"
+            },
             "target": "main-poonya"
         },
         {
-            "label": "Начиная",
+            "label": {
+                "ru": "Начиная",
+                "us": "Get started"
+            },
             "target": "get-started"
         },
         {
-            "label": "Интеграция",
+            "label": {
+                "ru": "Интеграция",
+                "us": "Integration"
+            },
             "target": "poonya-integration"
         },
         {
-            "label": "Синтаксис",
+            "label": {
+                "ru": "Синтаксис",
+                "us": "Syntax"
+            },
             "target": "poonya-syntax"
         }
     ],
     "start": "main-poonya",
     "sections": [
         {
-            "label": "Пунья",
+            "label": {
+                "ru": "Пунья",
+                "us": "Poonya"
+            },
             "target": "main-poonya",
             "children": [
                 {
-                    "label": "О названии",
+                    "label": {
+                        "ru": "О названии",
+                        "us": "About name"
+                    },
                     "target": "main-poonya#about_name"
                 }
             ]
         },
         {
-            "label": "Начиная",
+            "label": {
+                "ru": "Начиная",
+                "us": "Get started"
+            },
             "target": "get-started"
         },
         {
-            "label": "Интеграция",
+            "label": {
+                "ru": "Интеграция",
+                "us": "Integration"
+            },
             "target": "poonya-integration",
             "children": [
                 {
-                    "label": "MessagePattern",
+                    "label": {
+                        "ru": "MessagePattern",
+                        "us": "MessagePattern"
+                    },
                     "target": "poonya-integration#message"
                 },
                 {
-                    "label": "ExecutionPattern",
+                    "label": {
+                        "ru": "ExecutionPattern",
+                        "us": "ExecutionPattern"
+                    },
                     "target": "poonya-integration#execution"
                 },
                 {
-                    "label": "ExpressionPattern",
+                    "label": {
+                        "ru": "ExpressionPattern",
+                        "us": "ExpressionPattern"
+                    },
                     "target": "poonya-integration#expression"
                 }
             ]
         },
         {
-            "label": "Синтаксис",
+            "label": {
+                "ru": "Синтаксис",
+                "us": "Syntax"
+            },
             "target": "poonya-syntax",
             "children": [
                 {
-                    "label": "Блочный синтаксис",
+                    "label": {
+                        "ru": "Блочный синтаксис",
+                        "us": "Block syntax"
+                    },
                     "target": "poonya-syntax#block",
                     "children": [
                         {
-                            "label": "Инструкции",
+                            "label": {
+                                "ru": "Инструкции",
+                                "us": "Instructions"
+                            },
                             "target": "poonya-syntax#instructions"
                         },
                         {
-                            "label": "Инструкция: if",
+                            "label": {
+                                "ru": "Инструкция: if",
+                                "us": "Instruction if"
+                            },
                             "target": "poonya-syntax#if"
                         },
                         {
-                            "label": "Инструкция: while",
+                            "label": {
+                                "ru": "Инструкция: while",
+                                "us": "While statement"
+                            },
                             "target": "poonya-syntax#while"
                         },
                         {
-                            "label": "Инструкция: repeat",
+                            "label": {
+                                "ru": "Инструкция: repeat",
+                                "us": "Repeat statement"
+                            },
                             "target": "poonya-syntax#repeat"
                         },
                         {
-                            "label": "Инструкция: set",
+                            "label": {
+                                "ru": "Инструкция: set",
+                                "us": "Set statement"
+                            },
                             "target": "poonya-syntax#set"
                         },
                         {
-                            "label": "Оператор вывода",
+                            "label": {
+                                "ru": "Оператор вывода",
+                                "us": "Inference statement"
+                            },
                             "target": "poonya-syntax#out"
                         },
                         {
-                            "label": "Оператор добавления",
+                            "label": {
+                                "ru": "Оператор добавления",
+                                "us": "Add operator"
+                            },
                             "target": "poonya-syntax#add"
                         }
                     ]
                 },
                 {
-                    "label": "Cинтаксис выражений",
+                    "label": {
+                        "ru": "Cинтаксис выражений",
+                        "us": "Expression syntax"
+                    },
                     "target": "poonya-syntax#expression",
                     "children": [
                         {
-                            "label": "Литералы",
+                            "label": {
+                                "ru": "Литералы",
+                                "us": "Literals"
+                            },
                             "target": "poonya-syntax#literals"
                         },
                         {
-                            "label": "Операторы",
+                            "label": {
+                                "ru": "Операторы",
+                                "us": "Operators"
+                            },
                             "target": "poonya-syntax#operators"
                         },
                         {
-                            "label": "Оператор сложения",
+                            "label": {
+                                "ru": "Оператор сложения",
+                                "us": "Addition operator"
+                            },
                             "target": "poonya-syntax#plus"
                         },
                         {
-                            "label": "Оператор вычитания",
+                            "label": {
+                                "ru": "Оператор вычитания",
+                                "us": "Subtraction operator"
+                            },
                             "target": "poonya-syntax#minus"
                         },
                         {
-                            "label": "Оператор умножения",
+                            "label": {
+                                "ru": "Оператор умножения",
+                                "us": "Multiplication operator"
+                            },
                             "target": "poonya-syntax#mult"
                         },
                         {
-                            "label": "Оператор деления",
+                            "label": {
+                                "ru": "Оператор деления",
+                                "us": "Division operator"
+                            },
                             "target": "poonya-syntax#div"
                         },
                         {
-                            "label": "Оператор больше",
+                            "label": {
+                                "ru": "Оператор больше",
+                                "us": "Operator greater than"
+                            },
                             "target": "poonya-syntax#bigger"
                         },
                         {
-                            "label": "Оператор меньше",
+                            "label": {
+                                "ru": "Оператор меньше",
+                                "us": "Operator less than"
+                            },
                             "target": "poonya-syntax#less"
                         },
                         {
-                            "label": "Оператор больше или равно",
+                            "label": {
+                                "ru": "Оператор больше или равно",
+                                "us": "Greater than or equal operator"
+                            },
                             "target": "poonya-syntax#e_bigger"
                         },
                         {
-                            "label": "Оператор меньше или равно",
+                            "label": {
+                                "ru": "Оператор меньше или равно",
+                                "us": "Less than or equal operator"
+                            },
                             "target": "poonya-syntax#e_less"
                         },
                         {
-                            "label": "Оператор равно",
+                            "label": {
+                                "ru": "Оператор равно",
+                                "us": "Operator equals"
+                            },
                             "target": "poonya-syntax#e_equ"
                         },
                         {
-                            "label": "Дополнение",
+                            "label": {
+                                "ru": "Дополнение",
+                                "us": "Addition"
+                            },
                             "target": "poonya-syntax#end"
                         }
                     ]
@@ -163,19 +262,19 @@
     "content": [
         {
             "name": "main-poonya",
-            "src": "poonya/sections/main.md"
+            "src": "poonya/sections/$lang/main.md"
         },
         {
             "name": "poonya-integration",
-            "src": "poonya/sections/integration.md"
+            "src": "poonya/sections/$lang/integration.md"
         },
         {
             "name": "get-started",
-            "src": "poonya/sections/get-started.md"
+            "src": "poonya/sections/$lang/get-started.md"
         },
         {
             "name": "poonya-syntax",
-            "src": "poonya/sections/syntax.md"
+            "src": "poonya/sections/$lang/syntax.md"
         }
     ]
 }
