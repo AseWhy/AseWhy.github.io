@@ -18,35 +18,35 @@
         {
             "label": {
                 "ru": "Главная",
-                "us": "Main"
+                "en": "Main"
             },
             "target": "main-astecom"
         },
         {
             "label": {
                 "ru": "Проекты",
-                "us": "Projects"
+                "en": "Projects"
             },
             "target": "main-projects"
         },
         {
             "label": {
                 "ru": "Документация",
-                "us": "Documentation"
+                "en": "Documentation"
             },
             "target": "main-docs"
         },
         {
             "label": {
                 "ru": "Обновления",
-                "us": "Updates"
+                "en": "Updates"
             },
             "target": "main-updates"
         },
         {
             "label": {
                 "ru": "О сайте",
-                "us": "About"
+                "en": "About"
             },
             "target": "main-about"
         }
