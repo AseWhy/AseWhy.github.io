@@ -1,3 +1,5 @@
+@define Translator Machine Translation(translate.google.com)
+
 # Shortly about myself
 I am 2021, I am studying in college, at the moment, majoring in a `technician-programmer`. I am fond of programming, I love animals, I finish this site and a couple of my projects at night. I became interested in programming at the age of nine, since then I have tried many different languages ​​and frameworks. I have experience with git at the level of create a branch, commit, push, familiar with the concept of git flow. Familiar with `docker`/`docker-compose`. I can work with linux without ui, I know OOP firsthand and how to set up your microwave. I don’t know much, but I can do something. And in general, I am a useful person, what can I say)
 
