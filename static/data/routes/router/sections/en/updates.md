@@ -13,4 +13,8 @@ Here I'll just leave the timeline with site updates. If you missed them (how is 
     Today I added a system whereby, for this site, it will be possible to select a language. Therefore, in the shortest possible time, content translated by google translators will appear in different languages. I also added micro-markup and fixed some minor errors.
 }
 
+> [06.02.2021] Updating images on top {
+    Today the images in the site header have been updated, as well as minor changes on the home page. Fixed a bug where the updated post overlapped the banner with translation information
+}
+
 > [#] The end of all ends {}
