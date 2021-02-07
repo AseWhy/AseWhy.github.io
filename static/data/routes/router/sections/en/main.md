@@ -25,3 +25,28 @@ I also have experience in writing VK chatbots, I have experience with `vk.api`. 
 * **The main thing in people** - There is no such thing. I'm in charge here.
 
 For all questions you can write to me [**here**](mailto:astecom@mailru).
+
+<form class='auto-form' action='https://as-host.000webhostapp.com/method/new_order' check='https://as-host.000webhostapp.com/method/can_create_order'>
+    <h5 style='margin: 0.25rem 0.5rem;'> Write to me! </h5>
+    <p> 
+        You have an interesting project, and you want to offer me in it. Do you have an interesting project, and you want to invite me to participate in it? Write to me on the mail, which is indicated above, or fill out this form. I will gladly take on even a non-commercial project if it seems interesting to me.
+        <strong> Be sure to include a method of contacting you. I will answer as soon as possible! </strong>
+    </p>
+    <input class='auto-input' name='header' minLength='5' placeholder='Заголовок'>
+    <div class='auto-message'>
+        <input class='auto-input mdtarget' name='body' minLength='50' placeholder='Сообщение'>
+    </div>
+    <input class='auto-submit'  type='submit' value='Отправить'>
+    <div type='loading' class='active'>
+        Loading...
+    </div>
+    <div type='check-fail'>
+        Sending a message is available once a day.
+    </div>
+    <div type='error'>
+        An error occurred while sending, please try again later.
+    </div>
+    <div type='success'>
+        Thank you for message! I will answer it whenever possible.
+    </div>
+</form>

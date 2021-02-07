@@ -17,4 +17,8 @@ Here I'll just leave the timeline with site updates. If you missed them (how is 
     Today the images in the site header have been updated, as well as minor changes on the home page. Fixed a bug where the updated post overlapped the banner with translation information
 }
 
+> [07/02/2021] Added a contact form {
+    Today I added a form to contact me fine, now if you do not have the opportunity to contact me by your mail, you can leave your message through the form.
+}
+
 > [#] The end of all ends {}

@@ -26,7 +26,11 @@
 
 <form class='auto-form' action='https://as-host.000webhostapp.com/method/new_order' check='https://as-host.000webhostapp.com/method/can_create_order'>
     <h5 style='margin: 0.25rem 0.5rem;'> Напишите мне! </h5>
-    <p> Обязательно укажите способ обратной связи с вами, я отвечу при первой такой возможности! </p>
+    <p> 
+        У вас есть интересный проект, и вы хотите предложить мне в нем поучавствовать? Напишите мне на почту, которрая указана
+        выше, или заполните эту форму. Я срадостью возьмусь даже за некоммерческий проект, если он покажется мне интересным.
+        <strong> Обязательно укажите способ обратной связи с вами. Я отвечу при первой такой возможности! </strong>
+    </p>
     <input class='auto-input' name='header' minLength='5' placeholder='Заголовок'>
     <div class='auto-message'>
         <input class='auto-input mdtarget' name='body' minLength='50' placeholder='Сообщение'>
