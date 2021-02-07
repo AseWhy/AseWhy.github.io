@@ -24,4 +24,4 @@ I also have experience in writing VK chatbots, I have experience with `vk.api`. 
 * **Favorite editor** - VS code
 * **The main thing in people** - There is no such thing. I'm in charge here.
 
-And now there are many letters for such a page). But if there is something interesting, you can write to me here [**here**](mailto:astecom@mailru).
+For all questions you can write to me [**here**](mailto:astecom@mailru).

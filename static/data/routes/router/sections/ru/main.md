@@ -22,4 +22,26 @@
 * **Любимый редактор** - VS code
 * **Главное в людях** - Такого нет. Я тут главный.
 
-А вот уже много букв для такой страницы). Но если есть что то интересное, то можете написать мне вот [**сюда**](mailto:astecom@mailru).
+По всем вопросам можно написать мне вот [**сюда**](mailto:astecom@mailru). Или можно заполнить форму ниже
+
+<form class='auto-form' action='https://as-host.000webhostapp.com/method/new_order' check='https://as-host.000webhostapp.com/method/can_create_order'>
+    <h5 style='margin: 0.25rem 0.5rem;'> Напишите мне! </h5>
+    <p> Обязательно укажите способ обратной связи с вами, я отвечу при первой такой возможности! </p>
+    <input class='auto-input' name='header' minLength='5' placeholder='Заголовок'>
+    <div class='auto-message'>
+        <input class='auto-input mdtarget' name='body' minLength='50' placeholder='Сообщение'>
+    </div>
+    <input class='auto-submit'  type='submit' value='Отправить'>
+    <div type='loading' class='active'>
+        Загрузка...
+    </div>
+    <div type='check-fail'>
+        Отправка сообщения доступна раз в сутки.
+    </div>
+    <div type='error'>
+        При отправке произошла ошибка, попробуйте позже.
+    </div>
+    <div type='success'>
+        Спасибо за сообщение! Я отвечу на него по возможности.
+    </div>
+</form>
