@@ -1,9 +1,20 @@
 @define Translator Machine Translation(translate.google.com)
 
-# Shortly about myself
-I am 2021, I am studying in college, at the moment, majoring in a `technician-programmer`. I am fond of programming, I love animals, I finish this site and a couple of my projects at night. I became interested in programming at the age of nine, since then I have tried many different languages ​​and frameworks. I have experience with git at the level of create a branch, commit, push, familiar with the concept of git flow. Familiar with `docker`/`docker-compose`. I can work with linux without ui, I know OOP firsthand and how to set up your microwave. I don’t know much, but I can do something. And in general, I am a useful person, what can I say)
+# Briefly about me
+Welcome to my site! My name is **Plekhanov** **Alexey**, by father **Mikhailovich**. Me `{{Math. floor((new Date()-new Date("2002/06/21"))/31557600000) }}` years, year, i don't know), this is computed from my date of birth. At the moment, I am studying, or maybe I am not studying in college, in the specialty 'programmer technician'. I am fond of programming, and during my existence I tried many different frameworks, libraries and engines. I tried to write games, to be honest, it didn't work very well. At the moment, I have decided on ' web ' development, and although not for commercial purposes, I have been doing it for the last 2 years.
 
-### Stack
+### What I can do
+* Understand the relational model of building a database. Naturally, I am familiar with `Mysql`, so I also had to work with `MongoDB`
+* I understand someone else's code, I can work with someone else's code even without special comments, and I try to comment everything carefully myself.
+* I understand the principles of building the `REST API`, although I prefer the `JSON Pure API`. But I have nothing against `REST`.
+* I can work with docker/compos, git, at a sufficient level for team development.
+* Understand the client-server architecture.
+* I can work with `vk`(`discord`) **api**. I used to write bots in self's time.
+* If you didn't have the skill you needed above, then it doesn't matter, I'm learning quite a bit, at least at the time of writing this page.
+
+### My stack
+To be honest, I'm not quite sure what to write here, so I'll write everything I've worked with for the last 2 years, and of course with this I can do something not trivial.
+
 * [`Vue`](https://vuejs.org)[*CSR*]+[`Vuex`](https://vuex.vuejs.org)/[`JQuery`](https://jquery.com/)/[`TypeScript`](https://www.typescriptlang.org/)/[`Electron`](https://www.electronjs.org/) - **Frameworks/Libraries**
 * [`Gulp`](https://gulpjs.com/)/[`Webpack`](https://webpack.js.org/) - **Builders**
 * [`MySQL`](https://www.mysql.com/)/[`MongoDB`](https://www.mongodb.com) - **DB**
@@ -32,11 +43,13 @@ For all questions you can write to me [**here**](mailto:astecom@mailru).
         You have an interesting project, and you want to offer me in it. Do you have an interesting project, and you want to invite me to participate in it? Write to me on the mail, which is indicated above, or fill out this form. I will gladly take on even a non-commercial project if it seems interesting to me.
         <strong> Be sure to include a method of contacting you. I will answer as soon as possible! </strong>
     </p>
-    <input class='auto-input' name='header' minLength='5' placeholder='Заголовок'>
+    <input class='auto-input' name='header' type='text' minLength='5' required maxLength='50' placeholder='Header'>
+    <input class='auto-input' name='name' type='text' minLength='5' required maxLength='50' placeholder='With whom do I have the honor?'>
+    <input class='auto-input' name='email' type='email' minLength='5' required maxLength='50' placeholder='Where to answer?'>
     <div class='auto-message'>
-        <input class='auto-input mdtarget' name='body' minLength='50' placeholder='Сообщение'>
+        <input class='auto-input mdtarget' name='body' minLength='50' placeholder='Message'>
     </div>
-    <input class='auto-submit'  type='submit' value='Отправить'>
+    <input class='auto-submit'  type='submit' value='Send'>
     <div type='loading' class='active'>
         Loading...
     </div>
