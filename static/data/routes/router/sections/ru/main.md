@@ -31,7 +31,7 @@
         выше, или заполните эту форму. Я срадостью возьмусь даже за некоммерческий проект, если он покажется мне интересным.
         <strong> Обязательно укажите способ обратной связи с вами. Я отвечу при первой такой возможности! </strong>
     </p>
-    <input class='auto-input' name='header' minLength='5' placeholder='Заголовок'>
+    <input class='auto-input' name='header' minLength='5' maxLength='50' placeholder='Заголовок'>
     <div class='auto-message'>
         <input class='auto-input mdtarget' name='body' minLength='50' placeholder='Сообщение'>
     </div>
