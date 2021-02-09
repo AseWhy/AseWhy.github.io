@@ -1,7 +1,7 @@
 @define Translator Machine Translation(translate.google.com)
 
 # About
-The site is hosted on GitHub pages, which I think is clear from the name. I own it [AseWhy](https://github.com/AseWhy/). The name contains two aliases, I usually use them when registering for various services. The site was created for routing documentation, which, in the future, may become quite a lot. It took two days to create it.
+The site is hosted on GitHub pages, which I think is clear from the name. I own it [AseWhy](https://github.com/AseWhy/). The name contains two aliases, I usually use them when registering for various services. The site was created for routing documentation, which, in the future, may become quite a lot. It took two days to create it, but its development was all spent after those two days. Now the site weighs about 500kb, compressed, and loads quite quickly, I'm happy with that. This site costs me exactly 0 rubles.
 
 ### Technologies
 When creating this site, the [**Vue.js**](https://vuejs.org/) framework was used as the basis of the site, [**markedjs**](https://github.com/markedjs/marked) for parsing `Markdown` and [**highlight.js**](https://highlightjs.org/) for syntax highlighting in places where it is needed, the css framework [**bootstrap**](https://getbootstrap.com/) to make styling some elements easier. This whole thing was put together by the webpack builder, and now we have what we have.
