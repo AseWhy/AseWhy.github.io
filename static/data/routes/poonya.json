@@ -249,6 +249,27 @@
                         },
                         {
                             "label": {
+                                "ru": "Тернарный оператор",
+                                "en": "Ternary operator"
+                            },
+                            "target": "poonya-syntax#ternar"
+                        },
+                        {
+                            "label": {
+                                "ru": "Группа вывода",
+                                "en": "Output group"
+                            },
+                            "target": "poonya-syntax#output_group"
+                        },
+                        {
+                            "label": {
+                                "ru": "Объекты, конструкторы оьъектов",
+                                "en": "Objects, object constructors"
+                            },
+                            "target": "poonya-syntax#objects_constr"
+                        },
+                        {
+                            "label": {
                                 "ru": "Дополнение",
                                 "en": "Addition"
                             },

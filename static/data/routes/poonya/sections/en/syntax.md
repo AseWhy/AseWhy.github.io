@@ -199,5 +199,70 @@ The operator `equals` compares the left and right operand, if the left operand i
 
 Will output [`true`].
 
+### Ternary operator ~[ternar]
+The ternary operator allows you to get a conditional value directly in an expression, has the following syntax: `<`**expression**`>` ? `<`*true* **expression**`>`: `<`*false* **expression**`>`. It works the same as an if statement, but has a return value. You can also nest ternary operators inside each other, creating similar constructs `true ? flase ? fakse : true : false`;
+
+```js
+> 1 === 2 ? '1 это 2' : '1 это не 2';
+```
+
+Выведет `[`"**1 это не 2**"`]`.
+
+### Output group ~[output_group]
+The output group allows you to intercept the output of the code that is in the executable block of the output group. To create an output group that does not need to be processed before returning, you can simply enclose your code in curly braces `{}`. If you want to handle the output in some way, you can specify a function to handle before the curly braces. `<`**handler**`>`***?*** `<-`***?*** `{` `<`**body**`>` `}`;
+
+> While there are two built-in functions for processing: concat - simply concatenates the output as a string and array - just outputs the data raw as an array, without processing before output. All functions to handle can be found in the joiners object
+
+```js
+> {
+    > 1;
+    > 2;
+    > 3;
+}
+```
+
+Will output [[`1`, `2`, `3`]].
+
+You can also specify a handler:
+```js
+> joiners.concat <- {
+    > 1;
+    > 2;
+    > 3;
+}
+```
+
+Will output [`123`].
+
+### Objects, object constructors ~[objects_constr]
+Objects can be created by specifying a target prototype and initialization data. `<`**prototype**`>` -> **level** -> `value`, **level** -> `value`, -> **next level** --> `next level value`...; That is, the properties of an object are passed by level-by-level transfer of properties:
+
+> You can also create special types of objects, such as an array or a string. But as for strings, numbers and other primitives, they ***while*** work like ordinary objects. As for an array, its difference from an ordinary object is that no other indices, except numbers, are accepted.
+
+```js
+    set s = Obect ->
+                key -> 'value',
+                key1 -> 'value1';
+
+    > s;
+```
+
+Will output (in JSON) `{`
+    **"**`key`**"**`:` **"**`value`**"**,
+    **"**`key1`**"**`:` **"**`value1`**"**
+`}`;
+
+You can also use shorthand notation (object only)
+
+```js
+    set s = ->
+            key -> 'value',
+            key1 -> 'value1';
+
+    > s;
+```
+
+The output will be identical.
+
 ### Addition ~[end]
 I have tried to make the `poonya` syntax not too complex and as friendly as possible to syntaxes of other languages. In principle, it's all syntax, thanks for your attention.
