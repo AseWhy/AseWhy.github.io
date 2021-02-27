@@ -263,7 +263,7 @@
                         },
                         {
                             "label": {
-                                "ru": "Объекты, конструкторы оьъектов",
+                                "ru": "Объекты, конструкторы оъектов",
                                 "en": "Objects, object constructors"
                             },
                             "target": "poonya-syntax#objects_constr"

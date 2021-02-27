@@ -240,11 +240,11 @@ Objects can be created by specifying a target prototype and initialization data.
 > You can also create special types of objects, such as an array or a string. But as for strings, numbers and other primitives, they ***while*** work like ordinary objects. As for an array, its difference from an ordinary object is that no other indices, except numbers, are accepted.
 
 ```js
-    set s = Obect ->
-                key -> 'value',
-                key1 -> 'value1';
+set s = Obect ->
+            key -> 'value',
+            key1 -> 'value1';
 
-    > s;
+> s;
 ```
 
 Will output (in JSON) `{`
@@ -255,11 +255,11 @@ Will output (in JSON) `{`
 You can also use shorthand notation (object only)
 
 ```js
-    set s = ->
-            key -> 'value',
-            key1 -> 'value1';
+set s = ->
+        key -> 'value',
+        key1 -> 'value1';
 
-    > s;
+> s;
 ```
 
 The output will be identical.
