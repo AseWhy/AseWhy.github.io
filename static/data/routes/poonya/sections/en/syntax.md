@@ -242,14 +242,19 @@ Objects can be created by specifying a target prototype and initialization data.
 ```js
 set s = Obect ->
             key -> 'value',
-            key1 -> 'value1';
+            key1 -> 'value1',
+            key2 ->
+                'subkey' --> 'subvalue';
 
 > s;
 ```
 
-Will output (in JSON) `{`
-    **"**`key`**"**`:` **"**`value`**"**,
-    **"**`key1`**"**`:` **"**`value1`**"**
+Will output (in JSON) `{`</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**"**`key`**"**`:` **"**`value`**"**,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**"**`key1`**"**`:` **"**`value1`**"**,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**"**`key2`**"**`:` `{`</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**"**`subkey`**"**`:` **"**`subvalue`**"**</br>
+&nbsp;&nbsp;&nbsp;&nbsp;`}`</br>
 `}`;
 
 You can also use shorthand notation (object only)
@@ -257,7 +262,9 @@ You can also use shorthand notation (object only)
 ```js
 set s = ->
         key -> 'value',
-        key1 -> 'value1';
+        key1 -> 'value1',
+        key2 ->
+            'subkey' --> 'subvalue';
 
 > s;
 ```

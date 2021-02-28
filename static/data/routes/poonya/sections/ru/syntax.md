@@ -241,14 +241,19 @@ array <- 5;
 ```js
 set s = Obect ->
             key -> 'value',
-            key1 -> 'value1';
+            key1 -> 'value1',
+            key2 ->
+                'subkey' --> 'subvalue';
 
 > s;
 ```
 
-Выведет(в JSON) `{`
-    **"**`key`**"**`:` **"**`value`**"**,
-    **"**`key1`**"**`:` **"**`value1`**"**
+Выведет(в JSON) `{`</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**"**`key`**"**`:` **"**`value`**"**,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**"**`key1`**"**`:` **"**`value1`**"**,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;**"**`key2`**"**`:` `{`</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**"**`subkey`**"**`:` **"**`subvalue`**"**</br>
+&nbsp;&nbsp;&nbsp;&nbsp;`}`</br>
 `}`;
 
 Также можно использовать сокращенную нотацию(только для объекта):
@@ -256,7 +261,9 @@ set s = Obect ->
 ```js
 set s = ->
         key -> 'value',
-        key1 -> 'value1';
+        key1 -> 'value1',
+        key2 ->
+            'subkey' --> 'subvalue';
 
 > s;
 ```
