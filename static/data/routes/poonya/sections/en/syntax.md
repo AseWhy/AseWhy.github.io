@@ -206,7 +206,7 @@ The ternary operator allows you to get a conditional value directly in an expres
 > 1 === 2 ? '1 это 2' : '1 это не 2';
 ```
 
-Выведет `[`"**1 это не 2**"`]`.
+Will output `[`"**1 это не 2**"`]`.
 
 ### Output group ~[output_group]
 The output group allows you to intercept the output of the code that is in the executable block of the output group. To create an output group that does not need to be processed before returning, you can simply enclose your code in curly braces `{}`. If you want to handle the output in some way, you can specify a function to handle before the curly braces. `<`**handler**`>`***?*** `<-`***?*** `{` `<`**body**`>` `}`;
@@ -233,6 +233,165 @@ You can also specify a handler:
 ```
 
 Will output [`123`].
+
+### Break operator ~[break]
+The `break` statement is used to interrupt a loop, or exit from `group output`. A `break` statement can be created like this: `break`**;**. You can use it like in a `while` loop:
+
+```js
+set s = 0;
+
+while(true) {
+  if(s > 100) {
+    break;
+  }
+
+  s = s + 1;
+}
+
+> s;
+```
+
+The code above will output [`101`];
+
+Or else you can use it in a `repeat` loop:
+```js
+set s = 0;
+
+repeat(0; 1000) {
+  if(s > 100) {
+    break;
+  }
+
+  s = s + 1;
+}
+
+> s;
+```
+
+The output will be identical to the previous example. But note that a loop from `0` to `1000` is used, but the loop does not reach `1000` because of the `break` statement.
+
+You can also use the `break` statement in `group output` to interrupt the output at some point:
+
+```js
+set hello_world = false;
+
+> Join.concat <- {
+  > 'hello';
+
+  if(hello_world = false) {
+    break;
+  }
+
+  > ' world';
+}
+```
+
+The code above will output [`'hello'`] - the output was interrupted at this, due to the fact that the variable `hello_world` be `false`;
+
+### Continue operator ~[continue]
+The `continue` operator is used to move to the next iteration of the loop, it works both in the `while` loop and in the `repeat` loop. You can use it like this: `continue`**;**. You can use continue in a `while` loop:
+
+```js
+{
+    set s = 0;
+
+    while(true) {
+        s = s + 1;
+
+        if(s < 10 & s >= 0) {
+            if(s = 1) {
+                > 'Foo!' s;
+            }
+
+            continue;
+        }
+
+        if(s < 20 & s >= 10) {
+            if(s = 11) {
+                > 'Foo!' s;
+            }
+
+            continue;
+        }
+
+        if(s < 30 & s >= 20) {
+            if(s = 21) {
+                > 'Foo!' s;
+            }
+
+            continue;
+        }
+
+        if(s < 40 & s >= 30) {
+            if(s = 31) {
+                > 'Foo!' s;
+            }
+
+            continue;
+        }
+
+        if(s < 50 & s >= 40) {
+            if(s = 41) {
+                > 'Foo!' s;
+            }
+
+            continue;
+        }
+
+        if(s < 60 & s >= 50) {
+            if(s = 51) {
+                > 'Foo!' s;
+            }
+
+            continue;
+        }
+
+        break;
+    }
+}
+```
+
+The code above will output `[`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**'**`Foo!1`**'**,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**'**`Foo!11`**'**,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**'**`Foo!21`**'**,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**'**`Foo!31`**'**,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**'**`Foo!41`**'**,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**'**`Foo!51`**'**<br>
+`]`
+
+You can also use `continue` in a `repeat` loop:
+
+```js
+{
+  set s = 0;
+
+  repeat(0; 20) {
+    if(s = 1) {
+      > s;
+    }
+
+    if(current > 10) {
+      s = 1;
+
+      continue;
+    }
+  }
+}
+```
+
+The code above will output `[`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`11`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`12`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`13`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`14`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`15`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`16`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`17`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`18`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`19`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`20`,<br>
+`]`
 
 ### Objects, object constructors ~[objects_constr]
 Objects can be created by specifying a target prototype and initialization data. `<`**prototype**`>` -> **level** -> `value`, **level** -> `value`, -> **next level** --> `next level value`...; That is, the properties of an object are passed by level-by-level transfer of properties:

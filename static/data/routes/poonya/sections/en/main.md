@@ -10,6 +10,8 @@ In general, there is no hidden meaning in the name, I just love animals. The Chi
 
 For a long period of time, the small (red) panda was either singled out into a separate family, then attributed to the bear family, then attributed to raccoons. The confusion was caused by the fact that the movements of the red panda are similar to those of a bear: just like he can sit on his hind limbs, he has good command of the fore limbs, climbs trees, screams and gets angry. But at the same time, in appearance it is very similar to a striped raccoon. The resemblance to raccoons was enhanced by similarities in the structure of the skull, tail and teeth, and DNA analysis indicated a relationship with bears.
 
-> Current version 0.5.2
+You can try punya on the same site. To do this, you can go to the main page, then go to projects, and under the poonya heading there will be a `demo` button, by clicking which a window will open in which you can enter the poonya code and instantly receive the output.
+
+> Current version 0.6.2
 
 ![Poonya](static/data/routes/poonya/images/nkC8kLV_2qc.jpg)

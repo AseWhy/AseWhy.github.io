@@ -262,6 +262,20 @@
                             "target": "poonya-syntax#output_group"
                         },
                         {
+                          "label": {
+                              "ru": "Оператор break",
+                              "en": "Break operator"
+                          },
+                          "target": "poonya-syntax#break"
+                        },
+                        {
+                          "label": {
+                              "ru": "Оператор continue",
+                              "en": "Continue operator"
+                          },
+                          "target": "poonya-syntax#continue"
+                        },
+                        {
                             "label": {
                                 "ru": "Объекты, конструкторы оъектов",
                                 "en": "Objects, object constructors"
