@@ -21,4 +21,8 @@ Here I'll just leave the timeline with site updates. If you missed them (how is 
     Today I added a form to contact me fine, now if you do not have the opportunity to contact me by your mail, you can leave your message through the form.
 }
 
+> [06/05/2021] Slightly corrected the design and spelling in some places {
+    I decided to slightly change the indentation of the main view. Fixed some spelling and punctuation errors that hurt eyes.
+}
+
 > [#] The end of all ends {}

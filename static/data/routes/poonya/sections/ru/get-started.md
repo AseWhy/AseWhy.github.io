@@ -6,9 +6,9 @@
 const { ExecutionPattern, MessagePattern, ExpressionPattern } = require('poonya');
 ```
 
-Для использования в браузере, вам необходимо сначала подключить бандл с любым понравившимся методом экспорта, их есть три `var`, `amd`, и `system`. В случае `var`, в глобальном контексте просто будет создана переменная poonya, которая будет содержать все наобходимые классы, в случае `amd` и `system` вы можете посмотреть [здесь](https://tproger.ru/translations/js-modules-formats-loaders-builders/).
+Для использования в браузере, вам необходимо сначала подключить бандл с любым понравившимся методом экспорта, их есть три `var`, `amd`, и `system`. В случае `var`, в глобальном контексте просто будет создана переменная poonya, которая будет содержать все необходимые классы, в случае `amd` и `system` вы можете посмотреть [здесь](https://tproger.ru/translations/js-modules-formats-loaders-builders/).
 
-Скрипт подключется, так-же как это обычно делается в html
+Скрипт подключается, также как это обычно делается в html
 
 ```html
 <script src='./js/poonya.browser.var.bundle.min.js'/>
